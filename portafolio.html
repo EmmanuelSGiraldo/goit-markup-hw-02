@@ -4,25 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <!--pagina portafolio  -->
-  <body class="container-ppal-porta">
-    <header>
-      <section class="container-nav-briefcase">
-        <a
-          class="logo-briefcase"
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-          >WebeStudio</a
-        >
-        <nav class="nav-contents-briefcase">
+  <body>
+    <header class="container-ppal">
+      <a
+        class="link-logo"
+        href="index.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        >WebStudio</a
+      >
+      <section class="container-nav">
+        <nav>
           <ul>
             <li>
               <a
-                href=""
-                class="up-list0-briefcase"
+                href="index.html"
+                class="link-nav"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Estudio</a
@@ -30,8 +43,8 @@
             </li>
             <li>
               <a
-                href=""
-                class="up-list1-briefcase"
+                href="portafolio.html"
+                class="link-nav"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Portafolio</a
@@ -40,7 +53,7 @@
             <li>
               <a
                 href=""
-                class="up-list2-briefcase"
+                class="link-nav"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Contactos</a
@@ -51,12 +64,12 @@
 
         <ul>
           <li>
-            <a class="mail-0-briefcase" href="mailto:info@devstudio.com"
+            <a class="link-mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="phone-0-briefcase" href="tel:+52 55 5529 6000"
+            <a class="link-phone" href="tel:+52 55 5529 6000"
               >+52 55 5529 6000</a
             >
           </li>
@@ -67,11 +80,17 @@
       <!-- seccion filtro -->
       <section class="filter">
         <ul>
-          <li><button type="button">Todo</button></li>
-          <li><button type="button">Sitios-web</button></li>
-          <li><button type="button">Aplicaciones</button></li>
-          <li><button type="button">Diseño</button></li>
-          <li><button type="button">Marketing</button></li>
+          <li><button class="button-filter" type="button">Todo</button></li>
+          <li>
+            <button class="button-filter" type="button">Sitios-web</button>
+          </li>
+          <li>
+            <button class="button-filter" type="button">Aplicaciones</button>
+          </li>
+          <li><button class="button-filter" type="button">Diseño</button></li>
+          <li>
+            <button class="button-filter" type="button">Marketing</button>
+          </li>
         </ul>
       </section>
       <!-- seccion nuestras paginas y app -->
@@ -86,8 +105,8 @@
                 width="250"
               />
               <figcaption>
-                <h5 class="letter-web-site">Tecnoduck</h5>
-                <span class="base-web-site">Sitio-web</span>
+                <h4 class="letter-web-site">Tecnoduck</h4>
+                <h6 class="base-web-site">Sitio-web</h6>
               </figcaption>
             </figure>
           </li>
@@ -100,9 +119,9 @@
                 width="250"
               />
               <figcaption>
-                <h5 class="letter-poster">
+                <h4 class="letter-poster">
                   Póster de Nueva Orleans vs Estrella Dorada
-                </h5>
+                </h4>
               </figcaption>
             </figure>
           </li>
@@ -115,8 +134,8 @@
                 width="250"
               />
               <figcaption>
-                <h5 class="letter-restaurant">Restaurante Seafood</h5>
-                <span class="base-restaurant">Aplicaciones </span>
+                <h4 class="letter-restaurant">Restaurante Seafood</h4>
+                <h6 class="base-restaurant">Aplicaciones</h6>
               </figcaption>
             </figure>
           </li>
@@ -129,8 +148,8 @@
                 width="250"
               />
               <figcaption>
-                <h5 class="letter-headphones">Proyecto Prime</h5>
-                <span class="base-headphones"> Marketing</span>
+                <h4 class="letter-headphones">Proyecto Prime</h4>
+                <h6 class="base-headphones">Marketing</h6>
               </figcaption>
             </figure>
           </li>
@@ -143,8 +162,8 @@
                 width="250"
               />
               <figcaption>
-                <h5 class="letter-boxes">Proyecto Cajas</h5>
-                <span class="base-boxes">Aplicaciones</span>
+                <h4 class="letter-boxes">Proyecto Cajas</h4>
+                <h6 class="base-boxes">Aplicaciones</h6>
               </figcaption>
             </figure>
           </li>
@@ -157,8 +176,8 @@
                 width="250"
               />
               <figcaption>
-                <h5 class="letter-computer">La inspiración no tiene límites</h5>
-                <span class="base-computer">Sitio-web</span>
+                <h4 class="letter-computer">La inspiración no tiene límites</h4>
+                <h6 class="base-computer">Sitio-web</h6>
               </figcaption>
             </figure>
           </li>
@@ -171,8 +190,8 @@
                 width="250"
               />
               <figcaption>
-                <h5 class="letter-magazine">Edición Limitada</h5>
-                <span class="base-magazine">Diseño </span>
+                <h4 class="letter-magazine">Edición Limitada</h4>
+                <h6 class="base-magazine">Diseño></h6>
               </figcaption>
             </figure>
           </li>
@@ -185,8 +204,8 @@
                 width="250"
               />
               <figcaption>
-                <h5 class="letter-lab">Proyecto LAB</h5>
-                <span class="base-lab"> Marketing</span>
+                <h4 class="letter-lab">Proyecto LAB</h4>
+                <h6 class="base-lab">Marketing</h6>
               </figcaption>
             </figure>
           </li>
@@ -199,8 +218,8 @@
                 width="250"
               />
               <figcaption>
-                <h5 class="letter-laptop">Negocio en Crecimiento</h5>
-                <span class="base-laptop">Aplicaciones</span>
+                <h4 class="letter-laptop">Negocio en Crecimiento</h4>
+                <h6 class="base-laptop">Aplicaciones</h6>
               </figcaption>
             </figure>
           </li>
@@ -209,22 +228,26 @@
     </main>
     <footer>
       <!-- seccion contactanos portafolio -->
-      <section class="container-fotter">
+      <section class="container-lower">
         <address class="address-contact">
           <ul>
             <li class="direction">
               Calz. Ticomán 500, Ciudad de México, CDMX, México
             </li>
-            <li class="mail-1">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li>
+              <a class="link-mail-phone" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
-            <li class="phone-1">
-              <a href="tel:+52 55 5529 6000">+52 55 5529 6000</a>
+            <li>
+              <a class="link-mail-phone" href="tel:+52 55 5529 6000"
+                >+52 55 5529 6000</a
+              >
             </li>
           </ul>
         </address>
-        <a class="logo-1" href="" target="_blank" rel="noopener noreferrer"
-          >Webtudio</a
+        <a class="link-logo" href="" target="_blank" rel="noopener noreferrer"
+          >WebStudio</a
         >
       </section>
     </footer>

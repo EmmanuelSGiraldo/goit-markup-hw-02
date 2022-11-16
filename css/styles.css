@@ -1,0 +1,124 @@
+body {
+  /* color: #ffffff; */
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+/* colores de diseño */
+:root {
+  --main-color: #2196f3;
+  --second-color: #212121;
+  --third-color: #757575;
+  --fourth-color: #2f303a;
+  --fifth-color: #ffffff;
+}
+h2 {
+  font-size: 14px;
+}
+h4 {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  color: var(--second-color);
+}
+h5 {
+  font-size: 16px;
+  line-height: 1.18;
+  font-weight: 500;
+  color: var(--second-color);
+}
+h6 {
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 400;
+}
+/* estilos enlaces&botones Studio&Portafolio */
+a:hover {
+  color: var(--main-color);
+}
+button:hover {
+  color: var(--main-color);
+  cursor: pointer;
+  /* contenedor ppal Studio */
+}
+.container-ppal {
+  font-size: 14px;
+}
+/* logos superiores Studio&Prortafolio*/
+.container-nav {
+  line-height: 1.14;
+  font-weight: 500;
+  color: var(--second-color);
+}
+.link-nav{
+  color: var(--second-color);
+}
+.link-logo {
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  color: var(--main-color);
+}
+.link-mail {
+  color: var(--third-color);
+}
+.link-phone{
+  color: var(--third-color);
+}
+/* titulo negocio Studio*/
+.letter-title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  color: var(--fifth-color);
+}
+.letter-button-title {
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 700;
+  color: var(--fifth-color);
+}
+/* nuestros valores Studio */
+.container-values {
+  font-size: 14px;
+}
+.value {
+  line-height: 1.14;
+  font-weight: 700;
+  color: var(--second-color);
+}
+.written-value {
+  line-height: 1.71;
+  font-weight: 400;
+  color: var(--third-color);
+}
+/* subtitulo nuestro trabajo-nuestro equipo Studio */
+.subtitle {
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--second-color);
+}
+/* specialidad nuestros trabajadores Studio */
+.specialty {
+  font-weight: 400;
+  color: var(--third-color);
+}
+/* address Studio&Portafolio */
+.container-lower {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  font-weight: 400;
+}
+.link-mail-phone{
+  color: rgba(255, 255, 255, 0.6);
+}
+/* fltro Portafolio */
+.button-filter {
+  font-size: 16px;
+  line-height: 1.62;
+  font-weight: 500;
+  color: var(--second-color);
+}
+/* direccion footer Studio&Portafolio */
+.direction{
+  color: var(--fifth-color);
+}

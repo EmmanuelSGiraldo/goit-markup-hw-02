@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tarea 2</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Studio</title>
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,19 +19,19 @@
       rel="stylesheet"
     />
   </head>
-  <body class="container-ppal">
+  <body>
     <!--seccion del encabezado -->
-    <header>
+    <header class="container-ppal">
+      <a class="link-logo" href="" target="_blank" rel="noopener noreferrer"
+        >WebStudio
+      </a>
       <section class="container-nav">
-        <a class="logo" href="" target="_blank" rel="noopener noreferrer"
-          >WebeStudio</a
-        >
-        <nav class="nav-contents">
+        <nav>
           <ul>
             <li>
               <a
                 href=""
-                class="up-list0"
+                class="link-nav"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Estudio</a
@@ -39,8 +39,8 @@
             </li>
             <li>
               <a
-                href=""
-                class="up-list1"
+                href="portafolio.html"
+                class="link-nav"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Portafolio</a
@@ -49,7 +49,7 @@
             <li>
               <a
                 href=""
-                class="up-list2"
+                class="link-nav"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Contactos</a
@@ -60,12 +60,14 @@
 
         <ul>
           <li>
-            <a class="mail-0" href="mailto:info@devstudio.com"
+            <a class="link-mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="phone-0" href="tel:+52 55 5529 6000">+52 55 5529 6000</a>
+            <a class="link-phone" href="tel:+52 55 5529 6000"
+              >+52 55 5529 6000</a
+            >
           </li>
         </ul>
       </section>
@@ -74,46 +76,46 @@
       <!-- seccin titulo -->
       <section class="container-title">
         <h1 class="letter-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button class="button-ban">
-          <span class="letter-button"> Solicite nuestro servicio</span>
+        <button class="button-title">
+          <span class="letter-button-title"> Solicite nuestro servicio</span>
         </button>
       </section>
       <!--seccion nuestros valores-->
       <section class="container-values">
         <ul>
           <li>
-            <h2 class="value1">ATENCIÓN A LOS DETALLES</h2>
+            <h2 class="value">ATENCIÓN A LOS DETALLES</h2>
           </li>
           <li>
-            <p class="written-value1">
+            <p class="written-value">
               Nos adentramos en todos los detalles y procesos de su negocio,
               para así desarrollar una solución a su medida.
             </p>
           </li>
           <li>
-            <h2 class="value2">PUNTUALIDAD</h2>
+            <h2 class="value">PUNTUALIDAD</h2>
           </li>
           <li>
-            <p class="written-value2">
+            <p class="written-value">
               Con nosotros, usted puede sentirse seguro y protegido. Un
               principio importante de la empresa: respetar su tiempo y respetar
               los plazos acordados.
             </p>
           </li>
           <li>
-            <h3 class="value3">PLANIFICACIÓN</h3>
+            <h2 class="value">PLANIFICACIÓN</h2>
           </li>
           <li>
-            <p class="written-value3">
+            <p class="written-value">
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones.
             </p>
           </li>
           <li>
-            <h3 class="value4">TEGNOLOGÍA MODERNA</h3>
+            <h3 class="value">TEGNOLOGÍA MODERNA</h3>
           </li>
           <li>
-            <p class="written-value4">
+            <p class="written-value">
               Usamos herramientas innovadoras para resolver las tareas
               asignadas. Es hora de simplificar los procesos laborales.
             </p>
@@ -124,7 +126,7 @@
       <section class="container-work">
         <ul>
           <li>
-            <h2 class="our-work">A qué nos dedicamos</h2>
+            <h2 class="subtitle">A qué nos dedicamos</h2>
           </li>
           <li class="img-skill1">
             <img src="images/compu1.jpg" alt="hab1" width="250" />
@@ -139,61 +141,61 @@
       </section>
       <!-- seccion nuestro equipo-->
       <section class="container-team">
-        <h2 class="team">Nuestro Equipo</h2>
+        <h2 class="subtitle">Nuestro Equipo</h2>
         <ul>
           <li>
             <figure>
               <img
-                class="employee-1"
+                class="employee"
                 src="images/equi1.jpg"
                 alt="talento1"
                 width="250"
               />
               <figcaption>
-                <h5 class="name-employee-1">Andrés Cubo</h5>
-                <span class="specialty-1"> Diseñador de Productos</span>
+                <h5 class="name-employee">Andrés Cubo</h5>
+                <h5 class="specialty">Diseñador de Productos</h5>
               </figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                class="employee-2"
+                class="employee"
                 src="images/equi2.jpg"
                 alt="talento2"
                 width="250"
               />
               <figcaption>
-                <h5 class="name-employee-2">Carla Palacios</h5>
-                <span class="specialty-2"> Desarrolladora Frontend</span>
+                <h5 class="name-employee">Carla Palacios</h5>
+                <h5 class="specialty">Desarrolladora Frontend</h5>
               </figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                class="employee-3"
+                class="employee"
                 src="images/equi3.jpg"
                 alt="talento3"
                 width="250"
               />
               <figcaption>
-                <h5 class="name-employee-3">Mario Dorado</h5>
-                <span class="specialty-3"> Marketing</span>
+                <h5 class="name-employee">Mario Dorado</h5>
+                <h5 class="specialty">Marketing</h5>
               </figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                class="employee-4"
+                class="employee"
                 src="images/equi4.jpg"
                 alt="talento4"
                 width="250"
               />
               <figcaption>
-                <h5 class="name-employee-4">Pablo Mijangos</h5>
-                <span class="specialty-4"> Diseñador IU</span>
+                <h5 class="name-employee">Pablo Mijangos</h5>
+                <h5 class="specialty">Diseñador IU</h5>
               </figcaption>
             </figure>
           </li>
@@ -208,16 +210,20 @@
             <li class="direction">
               Calz. Ticomán 500, Ciudad de México, CDMX, México
             </li>
-            <li class="mail-1">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li>
+              <a class="link-mail-phone" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
-            <li class="phone-1">
-              <a href="tel:+52 55 5529 6000">+52 55 5529 6000</a>
+            <li>
+              <a class="link-mail-phone" href="tel:+52 55 5529 6000"
+                >+52 55 5529 6000</a
+              >
             </li>
           </ul>
         </address>
-        <a class="logo-1" href="" target="_blank" rel="noopener noreferrer"
-          >Webtudio</a
+        <a class="link-logo" href="" target="_blank" rel="noopener noreferrer"
+          >WebStudio</a
         >
       </section>
     </footer>

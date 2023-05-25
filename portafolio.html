@@ -1,250 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <!--pagina portafolio  -->
-  <body>
-    <header class="container-ppal">
-      <a class="link-logo" href="" target="_blank" rel="noopener noreferrer"
-        >WebStudio</a
-      >
-      <section class="container-nav">
-        <nav>
-          <ul>
-            <li>
-              <a
-                href="index.html"
-                class="link-nav"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Estudio</a
-              >
-            </li>
-            <li>
-              <a
-                href="portafolio.html"
-                class="link-nav"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Portafolio</a
-              >
-            </li>
-            <li>
-              <a
-                href=""
-                class="link-nav"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Contactos</a
-              >
-            </li>
-          </ul>
-        </nav>
-        <ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/modernnormalize.css">
+  <title>Portafolio</title>
+</head>
+<!--pagina portafolio  -->
+
+<body>
+  <!--seccion del encabezado -->
+  <header class="pages-header">
+    <nav class="nav__bar">
+      <!-- logo -->
+      <a class="nav__logo" href="index.html">WebStudio</a>
+      <!-- menu -->
+      <ul class="nav__menu">
+        <li>
+          <a class="link__current" href="index.html">Studio</a>
+        </li>
+        <li>
+          <a class="link__portfolio" href="portafolio.html">Portafolio</a>
+        </li>
+        <li>
+          <a class="link__contacts" href="">Contactos</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- contacts -->
+    <ul class="nav__contacts">
+      <li>
+        <a class="link__mail" href="#">info@devstudio.com</a>
+      </li>
+      <li>
+        <a class="link__contact" href="#">+52 55 5529 6000</a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <section class="section portfolio">
+      <div class="container">
+        <!-- menu tabs -->
+        <ul class="menu list">
+          <li><button class="button current" type="button">Todo</button></li>
           <li>
-            <a class="link-mail" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <button class="button" type="button">Sitios-web</button>
           </li>
           <li>
-            <a class="link-phone" href="tel:+52 55 5529 6000"
-              >+52 55 5529 6000</a
-            >
+            <button class="button" type="button">Aplicaciones</button>
+          </li>
+          <li><button class="button" type="button">Diseño</button></li>
+          <li>
+            <button class="button" type="button">Marketing</button>
           </li>
         </ul>
-      </section>
-    </header>
-    <main>
-      <!-- seccion filtro -->
-      <section class="filter">
-        <ul>
-          <li><button class="button-filter" type="button">Todo</button></li>
+        <!-- seccion nuestras paginas y app -->
+        <ul class="list cards">
           <li>
-            <button class="button-filter" type="button">Sitios-web</button>
+            <a href="#" class="link">
+              <img src="./images/img_portfolio1.jpg" alt="TecnoCrack website" width="370" />
+              <h2 class="portfolio-title">TecnoCrack</h2>
+              <p class="portfolio-text">Sitio Web</p>
+            </a>
           </li>
           <li>
-            <button class="button-filter" type="button">Aplicaciones</button>
-          </li>
-          <li><button class="button-filter" type="button">Diseño</button></li>
-          <li>
-            <button class="button-filter" type="button">Marketing</button>
-          </li>
-        </ul>
-      </section>
-      <!-- seccion nuestras paginas y app -->
-      <section class="container-pages">
-        <ul>
-          <li>
-            <figure class="card-1">
-              <img
-                class="web-site-img"
-                src="images/tecnoduck.jpg"
-                alt="sitio web1"
-                width="250"
-              />
-              <figcaption>
-                <h4 class="title-web">Tecnoduck</h4>
-                <h6 class="subtitle-web">Sitio-web</h6>
-              </figcaption>
-            </figure>
+            <a href="#" class="link">
+              <img src="./images/img_portfolio2.jpg" alt="Poster New Orlean vs Golden Star" width="100%" />
+              <h2 class="portfolio-title">
+                Poster New Orlean vs Golden Star
+              </h2>
+              <p class="portfolio-text">Design</p>
+            </a>
           </li>
           <li>
-            <figure class="card-2">
-              <img
-                class="poster-img"
-                src="images/neworleans.jpg"
-                alt="poster"
-                width="250"
-              />
-              <figcaption>
-                <h4 class="letter-poster">
-                  Póster de Nueva Orleans vs Estrella Dorada
-                </h4>
-              </figcaption>
-            </figure>
+            <a href="#" class="link">
+              <img src="./images/img_portfolio3.jpg" alt="Seafood Restaurant App" width="100%" />
+              <h2 class="portfolio-title">Seafood Restaurant</h2>
+              <p class="portfolio-text">App</p>
+            </a>
+          </li>
           </li>
           <li>
-            <figure class="card-3">
-              <img
-                class="restaurant-img"
-                src="images/seafood.jpg"
-                alt="restaurante app"
-                width="250"
-              />
-              <figcaption>
-                <h4 class="title-web">Restaurante Seafood</h4>
-                <h6 class="subtitle-web">Aplicaciones</h6>
-              </figcaption>
-            </figure>
+            <a href="#" class="link">
+              <img src="./images/img_portfolio4.jpg" alt="Project Prime Marketing" width="100%" />
+              <h2 class="portfolio-title">Project Prime</h2>
+              <p class="portfolio-text">Marketing</p>
+            </a>
           </li>
           <li>
-            <figure class="card-4">
-              <img
-                class="headphones-img"
-                src="images/headphones.jpg"
-                alt="Marketing"
-                width="250"
-              />
-              <figcaption>
-                <h4 class="title-web">Proyecto Prime</h4>
-                <h6 class="subtitle-web">Marketing</h6>
-              </figcaption>
-            </figure>
+            <a href="#" class="link">
+              <img src="./images/img_portfolio5.jpg" alt="Project Boxes App" width="370" />
+              <h2 class="portfolio-title">Project Boxes</h2>
+              <p class="portfolio-text">App</p>
+            </a>
           </li>
           <li>
-            <figure class="card-5">
-              <img
-                class="boxes-img"
-                src="images/boxes.jpg"
-                alt="Aplicaciones"
-                width="250"
-              />
-              <figcaption>
-                <h4 class="title-web">Proyecto Cajas</h4>
-                <h6 class="subtitle-web">Aplicaciones</h6>
-              </figcaption>
-            </figure>
+            <a href="#" class="link">
+              <img src="./images/img_portfolio6.jpg" alt="Inspiration has no Borders" width="370" />
+              <h2 class="portfolio-title">Inspiration has no Borders</h2>
+              <p class="portfolio-text">App</p>
+            </a>
           </li>
           <li>
-            <figure class="card-6">
-              <img
-                class="computer-img"
-                src="images/computer.jpg"
-                alt="sitio web2"
-                width="250"
-              />
-              <figcaption>
-                <h4 class="title-web">La inspiración no tiene límites</h4>
-                <h6 class="subtitle-web">Sitio-web</h6>
-              </figcaption>
-            </figure>
+            <a href="#" class="link">
+              <img src="./images/img_portfolio7.jpg" alt="Limited Edition Design" width="370" />
+              <h2 class="portfolio-title">Limited Edition</h2>
+              <p class="portfolio-text">Design</p>
+            </a>
           </li>
           <li>
-            <figure class="card-7">
-              <img
-                class="magazine-img"
-                src="images/magazine.jpg"
-                alt="diseño"
-                width="250"
-              />
-              <figcaption>
-                <h4 class="title-web">Edición Limitada</h4>
-                <h6 class="subtitle-web">Diseño></h6>
-              </figcaption>
-            </figure>
+            a href="#" class="link">
+            <img src="./images/img_portfolio8.jpg" alt="Project LAB MArketing" width="370" />
+            <h2 class="portfolio-title">Project LAB</h2>
+            <p class="portfolio-text">Marketing</p>
+            </a>
           </li>
           <li>
-            <figure class="card-8">
-              <img
-                class="lab-img"
-                src="images/lab.jpg"
-                alt="marketing2"
-                width="250"
-              />
-              <figcaption>
-                <h4 class="title-web">Proyecto LAB</h4>
-                <h6 class="subtitle-web">Marketing</h6>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure class="card-9">
-              <img
-                class="laptop-img"
-                src="images/laptop.jpg"
-                alt="Aplicaciones2"
-                width="250"
-              />
-              <figcaption>
-                <h4 class="title-web">Negocio en Crecimiento</h4>
-                <h6 class="subtitle-web">Aplicaciones</h6>
-              </figcaption>
-            </figure>
+            <a href="#" class="link">
+              <img src="./images/img_portfolio9.jpg" alt="Growing Bussines App" width="370" />
+              <h2 class="portfolio-title">Growing Bussines</h2>
+              <p class="portfolio-text">App</p>
+            </a>
           </li>
         </ul>
-      </section>
-    </main>
-    <footer>
-      <!-- seccion contactanos portafolio -->
-      <section class="container-lower">
-        <address class="address-contact">
-          <ul>
-            <li class="direction">
-              Calz. Ticomán 500, Ciudad de México, CDMX, México
-            </li>
-            <li>
-              <a class="link-mail-phone" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="link-mail-phone" href="tel:+52 55 5529 6000"
-                >+52 55 5529 6000</a
-              >
-            </li>
-          </ul>
-        </address>
-        <a class="link-logo" href="" target="_blank" rel="noopener noreferrer"
-          >WebStudio</a
-        >
-      </section>
-    </footer>
-  </body>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <a class="logo" href="">WebStudio</a>
+      <address>
+        <ul>
+          <li>
+            <a class="contact" href="#" target="_blank" rel="noopener noreferrer"> Calz. Ticomán 500, Ciudad de México,
+              CDMX, México</a>
+          </li>
+          <li>
+            <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="contact" href="tel:+52 55 5529 6000">+52 55 5529 6000</a>
+          </li>
+        </ul>
+      </address>
+    </div>
+  </footer>
+</body>
+
 </html>

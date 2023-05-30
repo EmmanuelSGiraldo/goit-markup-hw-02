@@ -23,7 +23,7 @@
           <a class="link__current" href="index.html">Studio</a>
         </li>
         <li>
-          <a class="link__portfolio" href="portafolio.html">Portafolio</a>
+          <a class="link__portfolio" href="portfolio.html">Portafolio</a>
         </li>
         <li>
           <a class="link__contacts" href="">Contactos</a>
@@ -33,12 +33,14 @@
     <!-- contacts -->
     <ul class="nav__contacts">
       <li>
-        <a class="link__mail" href="#">  <svg class="svg-email">
-          <use href="images/sprite-sheets.svg#email"></use>
-        </svg>info@devstudio.com</a>
+        <a class="link__mail" href="#"> <svg class="svg-email">
+            <use href="images/sprite-sheets.svg#email"></use>
+          </svg>info@devstudio.com</a>
       </li>
       <li>
-        <a class="link__contact" href="#">+52 55 5529 6000</a>
+        <a class="link__contact" href="#"> <svg class="svg-smartphone">
+            <use href="images/sprite-sheets.svg#smartphone"></use>
+          </svg> +52 55 5529 6000</a>
       </li>
     </ul>
   </header>
@@ -55,9 +57,13 @@
 
 
     <section class="benefits">
-      <div class="container">
+      <div class="container__benefists">
         <ul class="benefits__list">
           <li>
+            <div class="container__svg"><svg class="svg__benefits">
+                <use href="images/sprite-sheets.svg#antena"></use>
+              </svg>
+            </div>
             <h3 class="benefits__title">ATENCIÓN A LOS DETALLES</h3>
             <p class="benefits__description">
               Nos adentramos en todos los detalles y procesos de su negocio,
@@ -66,6 +72,11 @@
           </li>
 
           <li>
+            <div class="container__svg"><svg class="svg__benefits">
+                <use href="images/sprite-sheets.svg#clock"></use>
+              </svg>
+
+            </div>
             <h3 class="benefits__title">PUNTUALIDAD</h3>
             <p class="benefits__description">
               Con nosotros, usted puede sentirse seguro y protegido. Un
@@ -75,14 +86,22 @@
           </li>
 
           <li>
+            <div class="container__svg"><svg class="svg__benefits">
+                <use href="images/sprite-sheets.svg#diagram"></use>
+              </svg>
+
+            </div>
             <h3 class="benefits__title">PLANIFICACIÓN</h3>
             <p class="benefits__description">
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones.
             </p>
           </li>
-          
+
           <li>
+            <div class="container__svg"><svg class="svg__benefits">
+              <use href="images/sprite-sheets.svg#astronaut"></use>
+            </svg></div>
             <h3 class="benefits__title">TEGNOLOGÍA MODERNA</h3>
             <p class="benefits__description">
               Usamos herramientas innovadoras para resolver las tareas
@@ -93,48 +112,48 @@
       </div>
     </section>
     <!--  section what we do-->
-    <section class="section no-top-pading what-we-do-section">
-      <h2>A qué nos dedicamos</h2>
+    <section class="what-we-do">
+      <h2 class="title__h2 title__what">A qué nos dedicamos</h2>
       <div class="container">
         <!-- images -->
-        <ul>
+        <ul class="list__img">
           <li>
           </li>
           <li class="img-skill1">
-            <img src="images/compu1.jpg" alt="hab1" width="250" />
+            <img src="images/compu1.jpg" alt="hab1" width="370px" height="294px" />
           </li>
           <li class="img-skill2">
-            <img src="images/compu2.jpg" alt="hab2" width="250" />
+            <img src="images/compu2.jpg" alt="hab2" width="370px" height="294px" />
           </li>
           <li class="img-skill3">
-            <img src="images/compu3.jpg" alt="hab3" width="250" />
+            <img src="images/compu3.jpg" alt="hab3" width="370px" height="294px"/>
           </li>
         </ul>
       </div>
     </section>
     <!-- section our team-->
-    <section class="section team-section">
-      <h2>Nuestro Equipo</h2>
+    <section class="team">
+      <h2 class="title__h2 title__team">Nuestro Equipo</h2>
       <div class="container">
         <!-- cards -->
-        <ul>
-          <li>
-            <img src="images/equi1.jpg" alt="first member" width="270">
+        <ul class="team__list">
+          <li class="team__card">
+            <img src="images/equi1.jpg" alt="first member" width="270" height="260px">
             <h3>Christopher Walker</h3>
             <p>Product Designer</p>
           </li>
-          <li>
-            <img src="images/equi2.jpg" alt="second member" width="270">
+          <li class="team__card" >
+            <img src="images/equi2.jpg" alt="second member" width="270" height="260px">
             <h3>Kylie Evans</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
-            <img src="images/equi3.jpg" alt="third member" width="270">
+          <li class="team__card">
+            <img src="images/equi3.jpg" alt="third member" width="270" height="260px">
             <h3>Ryan Harris</h3>
             <p>Marketing</p>
           </li>
-          <li>
-            <img src="images/equi4.jpg" alt="fourth member" width="270">
+          <li class="team__card">
+            <img src="images/equi4.jpg" alt="fourth member" width="270" height="260px">
             <h3>Tyler Moore</h3>
             <p>UI Designer</p>
           </li>

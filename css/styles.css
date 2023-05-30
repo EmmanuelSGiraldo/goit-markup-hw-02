@@ -211,7 +211,6 @@ p {
 .title__h2 {
   margin: 0px;
   color: var(--second-color);
-  text-transform: uppercase;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -239,7 +238,6 @@ p {
 }
 
 .team {
-  /* margin: 94px 0px; */
   width: 1600px;
   height: 708px;
   display: flex;
@@ -262,4 +260,24 @@ p {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.team__networks{
+  margin: 16px 32px 30px 32px;
+  width: 206px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 22.33px;
+}
 
+.team__svg{
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8 ;
+  background-color:var(--fifth-color);
+}
+.container__footer{
+  width: 1600px;
+  height: 252px;
+  background: #2F303A;
+}
